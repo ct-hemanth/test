@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=fire">
+    <style>
+        .parent {
+            border: 2px solid black;
+            max-width: 100%;
+            display: flex;
+            flex-direction: column;
+            background-color: black;
+        }
+
+        .secondary1 {
+            background-color: #666;
+            width: 100%;
+            border: 1px solid black;
+            HEIGHT:300PX;
+            display: flex;
+            flex-direction: row;
+        }
+
+        .font-effect-fire {
+            font-size: "sofia", sans-serif;
+            
+            font-size: 70px
+        }
+
+        .pic {
+            width: 50%;
+            text-align:right;
+            float: right;
+
+        }
+
+        .secondary2 {
+
+            width: 100%;
+            border: 1px solid black;
+
+            display: flex;
+            flex-direction: row;
+
+        }
+
+        .left1 {
+            padding: 5px 0 0 20px;
+            width: 50%;
+            font-size: 30px
+        }
+
+        .mg {
+            margin-LEFT: 0px;
+            border: 0px;
+            float: right;
+            border-radius: 50%;
+            width: 300PX;
+            height: 300PX;
+            MARGIN-RIGHT: 30PX;
+
+        }
+
+        .left {
+            background-color: #ccc;
+            width: 30%;
+            padding: 0x;
+            padding-top: 50px;
+
+
+        }
+
+        .left-head {
+            font-size: larger;
+        }
+
+        .right {
+            background-color: #f1f1f1;
+            width: 70%;
+            padding: 50px;
+        }
+
+        #customers {
+            font-family: Arial, Helvetica, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        #customers td,
+        #customers th {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+
+        #customers tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        #customers tr:hover {
+            background-color: #ddd;
+        }
+
+        #customers th {
+            padding-top: 12px;
+            padding-bottom: 12px;
+            text-align: left;
+            background-color: #666;
+            color: white;
+        }
+        @media (max-width: 768px){ 
+            .secondary2{
+                flex-direction: column;
+            }
+            .left{
+                width: 100%;
+            }
+            .right{
+                width: 100%;
+                padding:5px;
+            }
+            .mg{
+                padding-top: 10px;
+                height:130px;
+                width: 130px;
+            }
+            .secondary1{
+                height: 150px;;
+            }
+            .font-effect-fire{
+                font-size: 30px;
+            }
+            .left1{
+                font-size:15px;
+            }
+            
+        }
+        @media (max-width: 320px){ 
+            .secondary1{
+                height:auto;
+            }
+            .mg{
+                padding-top:10px;
+                margin: 0;
+            }
+            .font-effect-fire{
+                font-size: 20px;
+            .left1{
+                font-size:10px;
+            }
+            .RIGHT{
+                MARGIN:0;
+                padding: 0;
+            }
+        }
+    </style>
+
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="parent">
+        <div class="secondary1">
+            <div class="left1">
+                <h1 class="font-effect-fire"><i>
+                        Sai Hemanth</i></h1>
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="black" class="bi bi-telephone-fill"
+                    viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                        d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z" />
+                </svg>: <u>8688879465</u> <br>
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                    class="bi bi-envelope-fill" viewBox="0 0 16 16">
+                    <path
+                        d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z" />
+                </svg>: <a  href="">sai@gmail.com</a>
+            </div>
+
+
+            <div class="pic"><img class="mg"
+                    src="https://th.bing.com/th/id/OIP.mYcvkQu5RjRuIjSg4_yIswHaJl?w=197&h=255&c=7&r=0&o=5&pid=1.7"
+                    alt="" height="120px " width="150px"></div>
+
+        </div>
+        <div class="secondary2">
+            <div class="left">
+                <div >
+                    <div style="padding-left:30px; margin-left:0;background-color: #666;"><h1>Objective</h1></div>
+                    <p style="font-size: 20px; text-align: justify; padding: 0 30px 0 30px"> Being motivated with good attitude, and development skills. I've wanted to get an oppurtunity where i can make the best of my potential to contribute to the organization's growth</p>
+                    </div>
+                
+                <div >
+                    <div style="padding-left:30px; margin-left:0;background-color: #666;"><h1>Skills</h1></div>
+                    </div>
+                    <div style="padding:0 0 0 10px; font-size: 20px;">
+                        <UL>
+                            <LI>JAVA</LI>
+                            <LI>C</LI>
+                            <LI>PYTHON</LI>
+                        </UL>
+                    </div>
+                    <div >
+                        <div style="padding-left:30px; margin-left:0;background-color: #666;"><h1>Hobbies</h1></div>
+                        </div>
+                        <div style="padding:0 0 0 10px;font-size: 23px;">
+                            <UL>
+                                <LI>Listening Music</LI>
+                                <LI>Reading Mahabharath</LI>
+                            </UL>
+                        </div>
+                    <div >
+                            <div style="padding-left:30px; margin-left:0;background-color: #666;"><h1>Languages Known</h1></div>
+                            </div>
+                            <div style="padding:0 0 0 10px;font-size: 23px;">
+                                <UL>
+                                    <LI>Telugu</LI>
+                                    <LI>Hindi</LI>
+                                    <LI>English</LI>
+                                </UL>
+                            </div>
+                </div>
+                
+
+ 
+
+
+            <div class="right">
+                <h1 style="Padding: 30 0 10 30">Education :</h1>
+                <table id="customers">
+                    <tr>
+                        <th>INSTITUTE</th>
+                        <th>EDUCATION</th>
+                        <th>POINTS</th>
+                    </tr>
+                    <tr>
+                        <td>PRAGATI</td>
+                        <td>BTECH</td>
+                        <td>7.6</td>
+                    </tr>
+                    <tr>
+                        <td>SRICHAITANYA</td>
+                        <td>INTER 1YR</td>
+                        <td>9.8</td>
+                    </tr>
+                    <tr>
+                        <td>SRICHAITANYA</td>
+
+
+                        <td>INTER 2YR</td>
+                        <td>9.8</td>
+                    </tr>
+                    <tr>
+                        <td>GAMYAM</td>
+                        <td>SSC</td>
+                        <td>10</td>
+                    </tr>
+
+                </table>
+                <h1 style="Padding: 30 0 10 30">Project :</h1>
+                <h2 style="Padding: 30 0 10 30">Cyber Threat Analysys: </h2>
+                <p style="font-size: 20px; text-align: justify;"> This project maintains security in mobile and computer applications by analysing the environment and detects any vulnerabilities that may cause intrusion</p>
+            </div>
+        </div>
+
+</body>
+
+</html>
